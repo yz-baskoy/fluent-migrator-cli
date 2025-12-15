@@ -1,0 +1,54 @@
+{
+  "name": "fluent-migrator-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for generating FluentMigrator C# migration files with multi-language support (EN, TR, FR, IT, DE)",
+  "main": "dist/index.js",
+  "bin": {
+    "fluent-migrator-cli": "dist/index.js",
+    "fmcli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "node dist/index.js TestMigration",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "migration",
+    "fluentmigrator",
+    "csharp",
+    "database",
+    "cli",
+    "code-generator",
+    "dotnet",
+    "sql",
+    "migration-tool",
+    "database-migration",
+    "multilingual",
+    "i18n"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fluent-migrator-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/fluent-migrator-cli/issues"
+  },
+  "homepage": "https://github.com/yourusername/fluent-migrator-cli#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5"
+  },
+  "dependencies": {}
+}
