@@ -1,0 +1,13 @@
+src/
+node_modules/
+*.ts
+tsconfig.json
+.git/
+.gitignore
+.vscode/
+.idea/
+*.log
+test/
+tests/
+*.test.ts
+*.spec.ts
