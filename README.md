@@ -25,7 +25,7 @@ A modular CLI tool for generating FluentMigrator C# migration files with multi-l
 
 **Your system language is automatically detected!**
 
-## 📦 Installation
+## Installation
 
 ### From Source (Currently Available)
 
@@ -47,7 +47,7 @@ npm link
 fmcli CreateUsersTable
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Basic Usage
 
@@ -66,7 +66,7 @@ Migration file successfully created: /path/to/Migrations/20241216153045_CreateTa
 ```
 
 
-## 📝 Generated File
+## Generated File
 
 When you run the command, a file is created in the `Migrations` folder with this format:
 
