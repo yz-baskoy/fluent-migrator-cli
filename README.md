@@ -1,4 +1,4 @@
-# fluent-migrator-cli
+# fluent-migrator-cli[Vive Coded]
 
 A modular CLI tool for generating FluentMigrator C# migration files with multi-language support.
 
